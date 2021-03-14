@@ -127,9 +127,101 @@ textarea {
   }
 
   footer .social-icons {
+    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  footer .content-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero {
+    border: 1px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  aside .content-wrapper {
+    border: 1px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .features {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+
+  .features .features-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  .reviews {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  .reviews img {
+    height: 300px;
+    width: 400px;
+  }
+
+  .reviews .content-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* -------------------- About Page -------------------- */
+  
+  .mission {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+
+
+   /* -------------------- FAQ Page -------------------- */
+
+  .faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .faq .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
   }
 
 
