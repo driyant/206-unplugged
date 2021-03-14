@@ -100,6 +100,7 @@ textarea {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    margin: 0;
   }
 
   .header-divider {
@@ -200,6 +201,10 @@ textarea {
   .features article {
     width: 50%;
     margin-top: 25px;
+  }
+
+  .features p {
+    margin: 0;
   }
 
   .reviews {
