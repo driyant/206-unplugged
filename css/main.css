@@ -102,11 +102,18 @@ textarea {
     justify-content: center;
   }
 
+  .header-divider {
+    width: 100%;
+    height: 1px;
+    margin: 10px 0 20px 0;
+  }
+
   header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-flow: row wrap;
+    width: 60%;
   }
 
   header nav ul {
@@ -114,6 +121,7 @@ textarea {
     justify-content: space-between;
     align-items: center;
     flex-flow: row wrap;
+    width: 100%;
   }
 
   header nav ul li {
@@ -123,25 +131,36 @@ textarea {
   header nav ul li a {
     text-decoration: none;
     text-transform: uppercase;
-    margin-right: 1em;
   }
 
-  footer .social-icons {
-    border: 1px solid red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  footer {
+    flex-flow: column;
   }
 
   footer .content-wrapper {
-    display: flex;
+    width: 55%;
+    margin: 50px 0;
+    /* display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    align-items: center; */
+  }
+
+  footer p {
+    margin: 0;
+  }
+
+  footer .contact {
+    margin: 0 0 0 40px;
+  }
+
+  footer .social-icons {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
   }
 
   .hero {
-    border: 1px solid orange;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,7 +174,6 @@ textarea {
   }
 
   aside .content-wrapper {
-    border: 1px solid orange;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,6 +186,10 @@ textarea {
     align-items: center;
   }
 
+  .features h2 {
+    margin-bottom: 60px;
+  }
+
   .features .features-items {
     display: flex;
     justify-content: center;
@@ -175,12 +197,24 @@ textarea {
     flex-flow: row wrap;
   }
 
+  .features article {
+    width: 50%;
+    margin-top: 25px;
+  }
+
   .reviews {
-    border: 1px solid red;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-flow: row wrap;
+  }
+
+  .reviews h2 {
+    margin-bottom: 30px;
+  }
+
+  .reviews h3 {
+    width: 50%;
+    margin-top: 10px;
   }
 
   .reviews img {
@@ -193,12 +227,6 @@ textarea {
     flex-flow: row wrap;
   }
 
-  .contact-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   /* -------------------- About Page -------------------- */
   
   .mission {
@@ -206,6 +234,12 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+  }
+
+  .contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
 
