@@ -86,14 +86,66 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+  * {
+    border: 1px solid orange;
+  }
   .content-wrapper {
     width: 90%;
     margin-top: 40px;
   }
 
-  /* -------------------- Base Header - Footer Styles -------------------- */
+  /* General Styles */
   
+  html {
+    font-size: 18px;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+  }
+  
+  ul, 
+  ol {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  a {
+    color: #e2e3ed;
+    text-decoration: none;
+  }
+  
+  h2 {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h3, 
+  h4 {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  p {
+    
+  }
+  
+  img {
+  
+  }
+  
+  figure {
+    
+  }
+  
+  address {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .content-wrapper {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /* -------------------- Base Header - Footer Styles -------------------- */
+
   header, footer {
     display: flex;
     justify-content: center;
@@ -171,7 +223,6 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    align-items: center;
   }
 
   .features h2 {
