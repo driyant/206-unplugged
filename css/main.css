@@ -148,7 +148,6 @@ textarea {
   
   img {
     width: 100%;
-    height: 51.8px;
   }
   
   figure {
@@ -176,9 +175,16 @@ textarea {
   header > .content-wrapper {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     margin: 0;
+  }
+
+  header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
   }
 
   .header-divider {
@@ -287,7 +293,7 @@ textarea {
   .reviews {
     display: flex;
     justify-content: center;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     background-color: #527158;
   }
 
@@ -298,11 +304,6 @@ textarea {
   .reviews h3 {
     width: 50%;
     margin-top: 10px;
-  }
-
-  .reviews img {
-    height: 300px;
-    width: 400px;
   }
 
   footer {
@@ -469,7 +470,7 @@ textarea {
   /* Tablet */
 
   header {
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
 
@@ -477,6 +478,10 @@ textarea {
     display: flex;
     align-items: center;
     flex-flow: row wrap;
+  }
+
+  header figure {
+    width: 30%;
   }
 
   header .header-divider {
@@ -523,12 +528,6 @@ textarea {
     width: 50%;
   }
 
-  .reviews {
-    display: flex;
-    justify-content: center;
-    flex-flow: row nowrap;
-  }
-
   .reviews .content-wrapper {
     margin-top: 100px;
   }
@@ -538,12 +537,11 @@ textarea {
     justify-content: space-between;
   }
 
-  .reviews article {
-    display: flex;
-    justify-content: space-between;
+  .reviews article div {
+    width: 50%;
   }
 
-  .reviews article div {
+  .reviews article figure {
     width: 50%;
   }
 
