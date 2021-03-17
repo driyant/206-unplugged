@@ -529,12 +529,13 @@ textarea {
   }
 
   .reviews .content-wrapper {
-    margin-top: 100px;
+    margin: 100px auto;
   }
 
   .reviews article {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   .reviews article div {
