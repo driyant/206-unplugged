@@ -341,15 +341,31 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background-color: #527158;
   }
 
   .contact-section {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #2a422f;
   }
 
+  .map figure {
+    width: 100%;
+    height: 0;
+    padding-bottom: 125%;
+    overflow: hidden;
+    position: relative;
+  }
 
+  .map iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+  }
    /* -------------------- FAQ Page -------------------- */
 
   .faq {
@@ -594,7 +610,6 @@ textarea {
   .contact-content {
     display: flex;
     justify-content: space-between;
-    flex-flow: row wrap;
   }
 
   .contact-content div {
