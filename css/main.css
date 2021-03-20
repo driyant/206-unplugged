@@ -126,7 +126,7 @@ textarea {
   h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    font-size: 2em;
+    font-size:2em;
     margin: 0;
     color: #e2e3ed;
   }
@@ -307,13 +307,13 @@ textarea {
   }
 
   footer {
-    flex-flow: column;
+    text-align: center;
+    flex-direction: column;
   }
 
   footer .content-wrapper {
     width: 55%;
     margin: 50px 0;
-    display: flex;
   }
 
   footer .footer-content {
@@ -325,7 +325,7 @@ textarea {
   }
 
   footer .contact {
-    margin: 0 0 0 40px;
+    margin: 0 0 40px 0;
   }
 
   footer .social-icons {
@@ -551,7 +551,6 @@ textarea {
   .reviews article {
     display: flex;
     justify-content: space-between;
-    align-items: center;
   }
 
   .reviews article div {
@@ -571,6 +570,7 @@ textarea {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
   }
 
   footer .contact {
@@ -601,6 +601,10 @@ textarea {
 
   .mission-content p {
     width: 50%;
+  }
+
+  .content-wrapper {
+    margin: 100px 0;
   }
 
   .contact-section .content-wrapper h2 {
@@ -639,6 +643,15 @@ textarea {
 
   .features article {
     flex-basis: 33.3%;
+  }
+
+  /* ----------------- About Page For Desktop ------------------ */
+  .map figure {
+    padding-bottom: 37.5%;
+  }
+
+  .content-wrapper {
+    max-width: 960px;
   }
 
   /* ----------------- FAQ Page For Desktop ------------------ */
