@@ -331,16 +331,15 @@ textarea {
     margin: 0;
   }
 
-  footer .contact {
-    margin: 0 0 40px 0;
-  }
-
   footer .social-icons {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
+  footer .social-icons p a i {
+    font-size: 2.3em;
+  }
 
   /* -------------------- About Page -------------------- */
   
@@ -650,6 +649,10 @@ textarea {
 
   .features article {
     flex-basis: 33.3%;
+  }
+
+  footer h4 {
+    font-size: 2em;
   }
 
   /* ----------------- About Page For Desktop ------------------ */
