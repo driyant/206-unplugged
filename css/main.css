@@ -89,6 +89,7 @@ textarea {
   * {
     border: 1px solid orange;
   }
+  
   .content-wrapper {
     width: 90%;
     margin-top: 40px;
@@ -274,16 +275,22 @@ textarea {
     margin-bottom: 60px;
   }
 
+  .features i {
+    font-size: 3.75rem;
+    margin-bottom: 40px;
+    color: #e2e3ed;
+  }
+
   .features .features-items {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-flow: row wrap;
   }
 
   .features article {
     width: 50%;
     margin-top: 25px;
+    text-align: center;
   }
 
   .features p {
