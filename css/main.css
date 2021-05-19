@@ -96,7 +96,7 @@ textarea {
 /* General Styles */
 
 html {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 body {
@@ -323,8 +323,6 @@ footer .copyright {
 }
 
 footer .content-wrapper {
- 
-  width: 55%;
   margin: 50px 0;
 }
 
@@ -392,7 +390,6 @@ footer .social-icons p a i {
   margin: 50px 0 0;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
 
@@ -570,26 +567,20 @@ footer .social-icons p a i {
     width: 50%;
   }
 
-  footer .content-wrapper {
-    width: 65%;
-    margin: 100px 0;
-    max-width: 960px;
+  .footer .content-wrapper {
+    width: 100%;
   }
 
   .footer-content {
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
-  }
-
-  footer .contact {
-    margin-left: 0;
-    width: 40%;
   }
 
   footer .social {
     width: 30%;
+    margin-right: 80px;
   }
+
 
   footer .copyright {
     width: 100%;
@@ -627,6 +618,7 @@ footer .social-icons p a i {
 
   .contact-section .content-wrapper h2 {
     width: 80%;
+    font-size: 2rem;
   }
 
   .contact-section h4 {
@@ -706,10 +698,19 @@ footer .social-icons p a i {
     max-width: 960px;
   }
 
-  /* ----------------- FAQ Page For Desktop ------------------ */
-  .faq h2 {
-    width: 100%;
+  .mission .mission-content p {
+    font-size: 1.1rem;
   }
+
+  /* ----------------- FAQ Page For Desktop ------------------ */
+  .faq h3 {
+    font-size: 1.2rem;
+  }
+
+  .faq-content p {
+    font-size: 1.1rem;
+  }
+
 }
 
 /* ==========================================================================
