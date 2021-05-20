@@ -123,7 +123,7 @@ h1 {
 h2 {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin: 0;
   color: #e2e3ed;
 }
@@ -132,7 +132,7 @@ h3,
 h4 {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.275rem;
   font-style: normal;
   margin: 20px 0;
   color: #e2e3ed;
@@ -319,7 +319,7 @@ footer {
 }
 
 footer .copyright {
-  height: 30px;
+  height: 40px;
 }
 
 footer .content-wrapper {
@@ -337,8 +337,11 @@ footer p {
 
 footer .social-icons {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: center;
+}
+
+footer .social-icons p:nth-child(2) {
+  margin: 0 1em;
 }
 
 footer .social-icons p a i {
@@ -684,10 +687,6 @@ footer .social-icons p a i {
 
   .features article {
     flex-basis: 32.9%;
-  }
-
-  footer h4 {
-    font-size: 2em;
   }
 
   /* ----------------- About Page For Desktop ------------------ */
