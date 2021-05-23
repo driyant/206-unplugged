@@ -285,11 +285,11 @@ input[type="submit"] {
 .features .features-items {
   display: flex;
   justify-content: center;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
 }
 
 .features article {
-  width: 50%;
+  width: 100%;
   margin-top: 25px;
   text-align: center;
 }
